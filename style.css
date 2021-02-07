@@ -1,0 +1,29 @@
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 610px;
+    height: 610px;
+    background-color: black;
+}
+
+.grid div {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 5px;
+}
+
+.playerX {
+background-image: url(/X.png);
+background-size: 200px;
+}
+
+.player0 {
+background-image: url(/O.png);
+background-size: 200px 200px;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+}
